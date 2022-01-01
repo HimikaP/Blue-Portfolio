@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:"Roboto" , sans-serif;  
+    margin:0;
+    padding: 0;
+    
+}
+li,a,button{
+    font-family:"Roboto", sans-serif;
+    font-weight:500;
+    font-size:24px;
+    margin: 5px;
+    color:#edf0f1;
+    text-decoration:none;   
+} 
+.image1{
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.image3{
+    display: flex;
+    justify-content: center;
+}
+header{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display:flex;
+    background-color:#24252A;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+button{
+    background-color: rgb(55, 123, 126);
+    padding:10px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}  
+button:hover{
+    background-color: #0088a9;;
+    
+    transform: scale(1.025);
+    transition-duration: 0.5s;
+}  
+
+/* .nav-links{
+    display: inline-block;
+} */
+.nav-links{
+    list-style: none;
+}
+
+.girl{
+    transform:scale(0.5);
+    max-width:130%;
+    max-height:130%;     
+}
+
+.footer{
+    background-color:#24252A ;
+    height:100px;
+    margin-top:20px;
+}
+.girl1{
+    transform:scale(0.4);
+    max-width:130%;
+    max-height:130%;     
+}
+.girl2{
+    transform:scale(0.4);
+    max-width:130%;
+    max-height:130%;     
+}
+img{
+    cursor:pointer;
+    transform:scale(1.25);    
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color:#0088a9;
+}
+
+.flex-content{
+    background-color: #24252A;
+    margin:5% 0;
+    height:800px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.flexi{
+    width:500px;
+    margin:40px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 80px;
+    text-align:center;
+    border:3px solid #333;
+    background-color: #0088a9;
+    border:10px solid #3595ad
+}
+.flexi:hover{
+    width:500px;
+    margin:50px;
+    border:3px solid #333;
+    background-color: #2e9bb6;
+    border:10px solid #52beda;
+    transform:scale(1.02);
+    transition: all 0.3s ease 0s;
+}
+
+.flex-item1{
+    
+
+}
